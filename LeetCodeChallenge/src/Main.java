@@ -1,6 +1,11 @@
 public class Main {
     public static void main(String[] args) {
 
-        System.out.println("Hello world!");
+        BestTimeToBuyAndSell maxProfit = new BestTimeToBuyAndSell();
+        int[] prices = {2,10,9,1,8,17};
+        maxProfit.sellStock(prices);
+        System.out.println(maxProfit.sellStock(prices));
+
+
     }
 }
