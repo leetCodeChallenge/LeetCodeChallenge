@@ -17,7 +17,7 @@ public class Main {
 //        System.out.println(peakElement.peakElement(elements));
 
         //Reverse Integer;
-        ReverseIntiger reverse = new ReverseIntiger();
+        ReverseInteger reverse = new ReverseInteger();
         System.out.println(reverse.reverse(1234));
 
 

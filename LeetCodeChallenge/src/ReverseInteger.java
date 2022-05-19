@@ -1,4 +1,4 @@
-public class ReverseIntiger {
+public class ReverseInteger {
     public int reverse(int x){
         int isNegative = 1;
         if (x<0){
