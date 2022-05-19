@@ -7,9 +7,15 @@ public class Main {
 //        System.out.println(maxProfit.sellStock(prices));
 
         //Majority Element
-        MajorityElement majority = new MajorityElement();
-        int[] numbers = {2,3,4,2,2};
-        System.out.println(majority.majorityElement(numbers));
+//        MajorityElement majority = new MajorityElement();
+//        int[] numbers = {2,3,4,2,2};
+//        System.out.println(majority.majorityElement(numbers));
+
+        //Find Peak Element
+        FindPeakElement peakElement = new FindPeakElement();
+        int[] elements = {2,3,4,2,2};
+        System.out.println(peakElement.peakElement(elements));
+
 
 
     }
