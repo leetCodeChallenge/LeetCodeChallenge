@@ -17,8 +17,13 @@ public class Main {
 //        System.out.println(peakElement.peakElement(elements));
 
         //Reverse Integer;
-        ReverseInteger reverse = new ReverseInteger();
-        System.out.println(reverse.reverse(1234));
+//        ReverseInteger reverse = new ReverseInteger();
+//        System.out.println(reverse.reverse(1234));
+
+        // Closest Sum
+        SumClosest sum = new SumClosest();
+        int[] nums = {1,1,-1,-1,3};
+        System.out.println(sum.sumClosest(nums, 3));
 
 
 
