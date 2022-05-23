@@ -21,9 +21,13 @@ public class Main {
 //        System.out.println(reverse.reverse(1234));
 
         // Closest Sum
-        SumClosest sum = new SumClosest();
-        int[] nums = {1,1,-1,-1,3};
-        System.out.println(sum.sumClosest(nums, 3));
+//        SumClosest sum = new SumClosest();
+//        int[] nums = {1,1,-1,-1,3};
+//        System.out.println(sum.sumClosest(nums, 3));
+
+        //LengthOfLastWord
+        LengthOfLastWord last = new LengthOfLastWord();
+        System.out.println(last.lengthofword("   fly me   to   the moon  "));
 
 
 
