@@ -7,10 +7,14 @@ public class Main {
 //        System.out.println(maxProfit.sellStock(prices));
 
         //Majority Element
-        MajorityElement majority = new MajorityElement();
-        int[] numbers = {2,3,4,2,2};
-        System.out.println(majority.majorityElement(numbers));
+        //MajorityElement majority = new MajorityElement();
+        //int[] numbers = {2,3,4,2,2};
+        //System.out.println(majority.majorityElement(numbers));
 
+        //singlw number
+        SingleNumber single1=new SingleNumber();
+        int [] nums={2,2,1};
+        System.out.println(single1.singleNumber1(nums));
 
     }
 }
